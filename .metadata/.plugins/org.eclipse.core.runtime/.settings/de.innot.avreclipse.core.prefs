@@ -1,0 +1,5 @@
+#Fri Apr 08 02:55:09 EDT 2011
+avrpaths//systempath/AVRGCC=/usr/bin
+avrpaths//systempath/MAKE=/usr/bin
+eclipse.preferences.version=1
+avrpaths//systempath/AVRDUDE=/usr/bin

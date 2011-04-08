@@ -1,0 +1,49 @@
+
+**** Build of configuration Debug for project toolhead-lib ****
+
+make all 
+Building file: ../test/test.c
+Invoking: GCC C Compiler
+gcc -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/test.d" -MT"test/test.d" -o"test/test.o" "../test/test.c"
+Finished building: ../test/test.c
+ 
+Building file: ../test/test_hardware.c
+Invoking: GCC C Compiler
+gcc -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test/test_hardware.d" -MT"test/test_hardware.d" -o"test/test_hardware.o" "../test/test_hardware.c"
+Finished building: ../test/test_hardware.c
+ 
+Building file: ../src/heater.c
+Invoking: GCC C Compiler
+gcc -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/heater.d" -MT"src/heater.d" -o"src/heater.o" "../src/heater.c"
+Finished building: ../src/heater.c
+ 
+Building file: ../src/solenoid.c
+Invoking: GCC C Compiler
+gcc -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/solenoid.d" -MT"src/solenoid.d" -o"src/solenoid.o" "../src/solenoid.c"
+Finished building: ../src/solenoid.c
+ 
+Building file: ../src/temperature_sensor.c
+Invoking: GCC C Compiler
+gcc -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/temperature_sensor.d" -MT"src/temperature_sensor.d" -o"src/temperature_sensor.o" "../src/temperature_sensor.c"
+Finished building: ../src/temperature_sensor.c
+ 
+Building file: ../src/toolhead.c
+Invoking: GCC C Compiler
+gcc -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/toolhead.d" -MT"src/toolhead.d" -o"src/toolhead.o" "../src/toolhead.c"
+Finished building: ../src/toolhead.c
+ 
+Building file: ../src/toolhead_error.c
+Invoking: GCC C Compiler
+gcc -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/toolhead_error.d" -MT"src/toolhead_error.d" -o"src/toolhead_error.o" "../src/toolhead_error.c"
+Finished building: ../src/toolhead_error.c
+ 
+Building file: ../src/hardware/arduino_toolhead.c
+Invoking: GCC C Compiler
+gcc -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hardware/arduino_toolhead.d" -MT"src/hardware/arduino_toolhead.d" -o"src/hardware/arduino_toolhead.o" "../src/hardware/arduino_toolhead.c"
+Finished building: ../src/hardware/arduino_toolhead.c
+ 
+Building target: toolhead-lib
+Invoking: GCC C Linker
+gcc  -o"toolhead-lib"  ./test/test.o ./test/test_hardware.o  ./src/heater.o ./src/solenoid.o ./src/temperature_sensor.o ./src/toolhead.o ./src/toolhead_error.o  ./src/hardware/arduino_toolhead.o   
+Finished building target: toolhead-lib
+ 

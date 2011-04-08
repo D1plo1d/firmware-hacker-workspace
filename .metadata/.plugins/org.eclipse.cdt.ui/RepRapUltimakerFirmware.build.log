@@ -1,0 +1,115 @@
+
+**** Build of configuration Debug for project RepRapUltimakerFirmware ****
+
+make all 
+Building file: ../src/cartesian_dda.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/cartesian_dda.d" -MT"src/cartesian_dda.d" -c -o"src/cartesian_dda.o" "../src/cartesian_dda.cpp"
+../src/cartesian_dda.cpp:3:24: warning: toolhead.h: No such file or directory
+../src/cartesian_dda.cpp:4:41: warning: hardware/arduino_toolhead.h: No such file or directory
+In file included from ../src/firmware.h:12,
+                 from ../src/cartesian_dda.cpp:7:
+../src/configuration.h:89:1: warning: "INVERT_X_DIR" redefined
+../src/configuration.h:77:1: warning: this is the location of the previous definition
+../src/configuration.h:91:1: warning: "INVERT_Z_DIR" redefined
+../src/configuration.h:86:1: warning: this is the location of the previous definition
+In file included from ../src/cartesian_dda.cpp:7:
+../src/firmware.h:24:22: warning: WProgram.h: No such file or directory
+In file included from ../src/firmware.h:15,
+                 from ../src/cartesian_dda.cpp:7:
+../src/toolhead_stepper.h:4: warning: ‘extruder_in_use’ initialised and declared ‘extern’
+In file included from ../src/cartesian_dda.cpp:7:
+../src/firmware.h:45: error: variable or field ‘setTimerResolution’ declared void
+../src/firmware.h:45: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp: In constructor ‘cartesian_dda::cartesian_dda()’:
+../src/cartesian_dda.cpp:33: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:33: error: ‘OUTPUT’ was not declared in this scope
+../src/cartesian_dda.cpp:33: error: ‘pinMode’ was not declared in this scope
+../src/cartesian_dda.cpp:34: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:36: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:37: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:39: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:40: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:43: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:44: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:45: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:53: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:53: error: ‘INPUT’ was not declared in this scope
+../src/cartesian_dda.cpp:54: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:55: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:66: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:67: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:68: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp: In member function ‘void cartesian_dda::set_target(const FloatPoint&)’:
+../src/cartesian_dda.cpp:133: error: ‘sqrt’ was not declared in this scope
+../src/cartesian_dda.cpp:144: error: ‘max’ was not declared in this scope
+../src/cartesian_dda.cpp:162: error: ‘abs’ was not declared in this scope
+../src/cartesian_dda.cpp: In member function ‘void cartesian_dda::dda_start()’:
+../src/cartesian_dda.cpp:346: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:346: error: expected `;' before ‘d’
+../src/cartesian_dda.cpp:353: error: ‘d’ was not declared in this scope
+../src/cartesian_dda.cpp:355: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:355: error: ‘d’ was not declared in this scope
+../src/cartesian_dda.cpp:355: error: ‘digitalWrite’ was not declared in this scope
+../src/cartesian_dda.cpp:366: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:377: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp: In member function ‘void cartesian_dda::enable_steppers()’:
+../src/cartesian_dda.cpp:398: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:398: error: ‘LOW’ was not declared in this scope
+../src/cartesian_dda.cpp:398: error: ‘digitalWrite’ was not declared in this scope
+../src/cartesian_dda.cpp:400: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:400: error: ‘LOW’ was not declared in this scope
+../src/cartesian_dda.cpp:400: error: ‘digitalWrite’ was not declared in this scope
+../src/cartesian_dda.cpp:402: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:402: error: ‘LOW’ was not declared in this scope
+../src/cartesian_dda.cpp:402: error: ‘digitalWrite’ was not declared in this scope
+../src/cartesian_dda.cpp: In member function ‘void cartesian_dda::disable_steppers()’:
+../src/cartesian_dda.cpp:421: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:421: error: ‘LOW’ was not declared in this scope
+../src/cartesian_dda.cpp:421: error: ‘digitalWrite’ was not declared in this scope
+../src/cartesian_dda.cpp: In member function ‘void cartesian_dda::do_x_step()’:
+../src/cartesian_dda.cpp:452: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:452: error: ‘HIGH’ was not declared in this scope
+../src/cartesian_dda.cpp:452: error: ‘digitalWrite’ was not declared in this scope
+../src/cartesian_dda.cpp:453: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:453: error: ‘LOW’ was not declared in this scope
+../src/cartesian_dda.cpp: In member function ‘void cartesian_dda::do_y_step()’:
+../src/cartesian_dda.cpp:458: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:458: error: ‘HIGH’ was not declared in this scope
+../src/cartesian_dda.cpp:458: error: ‘digitalWrite’ was not declared in this scope
+../src/cartesian_dda.cpp:459: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:459: error: ‘LOW’ was not declared in this scope
+../src/cartesian_dda.cpp: In member function ‘void cartesian_dda::do_z_step()’:
+../src/cartesian_dda.cpp:464: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:464: error: ‘HIGH’ was not declared in this scope
+../src/cartesian_dda.cpp:464: error: ‘digitalWrite’ was not declared in this scope
+../src/cartesian_dda.cpp:465: error: expected `)' before numeric constant
+../src/cartesian_dda.cpp:465: error: ‘LOW’ was not declared in this scope
+../src/cartesian_dda.cpp: In member function ‘void cartesian_dda::do_e_step()’:
+../src/cartesian_dda.cpp:470: error: invalid use of incomplete type ‘struct toolhead’
+../src/toolhead_stepper.h:4: error: forward declaration of ‘struct toolhead’
+../src/cartesian_dda.cpp: In member function ‘long int cartesian_dda::calculate_feedrate_delay(const float&)’:
+../src/cartesian_dda.cpp:481: error: ‘round’ was not declared in this scope
+../src/cartesian_dda.cpp: In member function ‘bool cartesian_dda::xCanStep(long int, long int, bool)’:
+../src/cartesian_dda.cpp:496: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:496: error: ‘digitalRead’ was not declared in this scope
+../src/cartesian_dda.cpp:508: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:508: error: ‘digitalRead’ was not declared in this scope
+../src/cartesian_dda.cpp: In member function ‘bool cartesian_dda::yCanStep(long int, long int, bool)’:
+../src/cartesian_dda.cpp:532: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:532: error: ‘digitalRead’ was not declared in this scope
+../src/cartesian_dda.cpp:544: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:544: error: ‘digitalRead’ was not declared in this scope
+../src/cartesian_dda.cpp: In member function ‘bool cartesian_dda::zCanStep(long int, long int, bool)’:
+../src/cartesian_dda.cpp:568: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:568: error: ‘digitalRead’ was not declared in this scope
+../src/cartesian_dda.cpp:580: error: ‘byte’ was not declared in this scope
+../src/cartesian_dda.cpp:580: error: ‘digitalRead’ was not declared in this scope
+../src/vectors.h: At global scope:
+../src/vectors.h:24: warning: inline function ‘FloatPoint fabsv(const FloatPoint&)’ used but never defined
+../src/vectors.h:22: warning: inline function ‘FloatPoint operator-(const FloatPoint&, const FloatPoint&)’ used but never defined
+../src/vectors.h:23: warning: inline function ‘FloatPoint operator*(const FloatPoint&, const FloatPoint&)’ used but never defined
+../src/vectors.h:40: warning: inline function ‘LongPoint to_steps(const FloatPoint&, const FloatPoint&)’ used but never defined
+../src/vectors.h:38: warning: inline function ‘LongPoint absv(const LongPoint&)’ used but never defined
+../src/vectors.h:37: warning: inline function ‘LongPoint operator-(const LongPoint&, const LongPoint&)’ used but never defined
+make: *** [src/cartesian_dda.o] Error 1

@@ -1,0 +1,6 @@
+[submodule "RepRapUltimakerFirmware"]
+	path = RepRapUltimakerFirmware
+	url = ./RepRapUltimakerFirmware/
+[submodule "toolhead-lib"]
+	path = toolhead-lib
+	url = ./toolhead-lib/
