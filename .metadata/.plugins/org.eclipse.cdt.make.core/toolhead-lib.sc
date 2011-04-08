@@ -7,6 +7,7 @@
 <includePath path="/usr/local/include"/>
 <includePath path="/usr/lib/gcc/i686-linux-gnu/4.4.5/include"/>
 <includePath path="/usr/lib/gcc/i686-linux-gnu/4.4.5/include-fixed"/>
+<includePath path="/usr/include/i686-linux-gnu"/>
 <includePath path="/usr/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>

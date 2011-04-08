@@ -4,67 +4,51 @@
 make all 
 Building file: ../src/cartesian_dda.cpp
 Invoking: AVR C++ Compiler
-avr-g++ -I"/home/rob/workspaces/ultimaker-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/lib/wiring" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/cartesian_dda.d" -MT"src/cartesian_dda.d" -c -o"src/cartesian_dda.o" "../src/cartesian_dda.cpp"
+avr-g++ -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/RepRapUltimakerFirmware/lib/WiringSerial" -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/cartesian_dda.d" -MT"src/cartesian_dda.d" -c -o"src/cartesian_dda.o" "../src/cartesian_dda.cpp"
 In file included from ../src/firmware.h:17,
+                 from ../src/cartesian_dda.cpp:8:
+../src/configuration.h:89:1: warning: "INVERT_X_DIR" redefined
 Finished building: ../src/cartesian_dda.cpp
  
-                 from ../src/cartesian_dda.cpp:8:
 Building file: ../src/fancy.cpp
-../src/configuration.h:89:1: warning: "INVERT_X_DIR" redefined
-../src/configuration.h:77:1: warning: this is the location of the previous definition
 Invoking: AVR C++ Compiler
-avr-g++ -I"/home/rob/workspaces/ultimaker-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/lib/wiring" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/fancy.d" -MT"src/fancy.d" -c -o"src/fancy.o" "../src/fancy.cpp"
-../src/configuration.h:91:1: warning: "INVERT_Z_DIR" redefined
+avr-g++ -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/RepRapUltimakerFirmware/lib/WiringSerial" -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/fancy.d" -MT"src/fancy.d" -c -o"src/fancy.o" "../src/fancy.cpp"
+../src/configuration.h:77:1: warning: this is the location of the previous definition
 Finished building: ../src/fancy.cpp
  
 Building file: ../src/firmware.cpp
 Invoking: AVR C++ Compiler
-avr-g++ -I"/home/rob/workspaces/ultimaker-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/lib/wiring" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/firmware.d" -MT"src/firmware.d" -c -o"src/firmware.o" "../src/firmware.cpp"
+avr-g++ -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/RepRapUltimakerFirmware/lib/WiringSerial" -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/firmware.d" -MT"src/firmware.d" -c -o"src/firmware.o" "../src/firmware.cpp"
+../src/configuration.h:91:1: warning: "INVERT_Z_DIR" redefined
 ../src/configuration.h:86:1: warning: this is the location of the previous definition
 Finished building: ../src/firmware.cpp
  
 Building file: ../src/hostcom.cpp
 Invoking: AVR C++ Compiler
-avr-g++ -I"/home/rob/workspaces/ultimaker-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/lib/wiring" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/hostcom.d" -MT"src/hostcom.d" -c -o"src/hostcom.o" "../src/hostcom.cpp"
-../src/vectors.h:24: warning: inline function ‘FloatPoint fabsv(const FloatPoint&)’ used but never defined
+avr-g++ -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/RepRapUltimakerFirmware/lib/WiringSerial" -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/hostcom.d" -MT"src/hostcom.d" -c -o"src/hostcom.o" "../src/hostcom.cpp"
+In file included from ../src/firmware.h:17,
+                 from ../src/fancy.cpp:10:
+../src/configuration.h:89:1: warning: "INVERT_X_DIR" redefined
 Finished building: ../src/hostcom.cpp
-../src/vectors.h:22: warning: inline function ‘FloatPoint operator-(const FloatPoint&, const FloatPoint&)’ used but never defined
  
 Building file: ../src/process_g_code.cpp
 Invoking: AVR C++ Compiler
-avr-g++ -I"/home/rob/workspaces/ultimaker-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/lib/wiring" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/process_g_code.d" -MT"src/process_g_code.d" -c -o"src/process_g_code.o" "../src/process_g_code.cpp"
-../src/vectors.h:23: warning: inline function ‘FloatPoint operator*(const FloatPoint&, const FloatPoint&)’ used but never defined
+avr-g++ -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/RepRapUltimakerFirmware/lib/WiringSerial" -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/process_g_code.d" -MT"src/process_g_code.d" -c -o"src/process_g_code.o" "../src/process_g_code.cpp"
+../src/configuration.h:77:1: warning: this is the location of the previous definition
 Finished building: ../src/process_g_code.cpp
-../src/vectors.h:40: warning: inline function ‘LongPoint to_steps(const FloatPoint&, const FloatPoint&)’ used but never defined
-../src/vectors.h:38: warning: inline function ‘LongPoint absv(const LongPoint&)’ used but never defined
  
 Building file: ../src/toolhead_stepper.cpp
-../src/vectors.h:37: warning: inline function ‘LongPoint operator-(const LongPoint&, const LongPoint&)’ used but never defined
 Invoking: AVR C++ Compiler
-In file included from ../src/firmware.h:17,
-                 from ../src/fancy.cpp:10:
-avr-g++ -I"/home/rob/workspaces/ultimaker-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/lib/wiring" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/toolhead_stepper.d" -MT"src/toolhead_stepper.d" -c -o"src/toolhead_stepper.o" "../src/toolhead_stepper.cpp"
-../src/configuration.h:89:1: warning: "INVERT_X_DIR" redefined
-Finished building: ../src/toolhead_stepper.cpp
-../src/configuration.h:77:1: warning: this is the location of the previous definition
- 
 ../src/configuration.h:91:1: warning: "INVERT_Z_DIR" redefined
-Building file: ../src/vectors.cpp
+avr-g++ -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/RepRapUltimakerFirmware/lib/WiringSerial" -I"/home/fumon/ddt/proj/RepRapWorkspace/firmware-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/toolhead_stepper.d" -MT"src/toolhead_stepper.d" -c -o"src/toolhead_stepper.o" "../src/toolhead_stepper.cpp"
 ../src/configuration.h:86:1: warning: this is the location of the previous definition
-Invoking: AVR C++ Compiler
 In file included from ../src/firmware.h:17,
-avr-g++ -I"/home/rob/workspaces/ultimaker-hacker-workspace/RepRapUltimakerFirmware/lib/arduino" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/lib/wiring" -I"/home/rob/workspaces/ultimaker-hacker-workspace/toolhead-lib/src" -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -fno-exceptions -mmcu=atmega1280 -DF_CPU=16000000UL -MMD -MP -MF"src/vectors.d" -MT"src/vectors.d" -c -o"src/vectors.o" "../src/vectors.cpp"
                  from ../src/firmware.cpp:13:
 ../src/configuration.h:89:1: warning: "INVERT_X_DIR" redefined
 ../src/configuration.h:77:1: warning: this is the location of the previous definition
-Finished building: ../src/vectors.cpp
- 
 ../src/configuration.h:91:1: warning: "INVERT_Z_DIR" redefined
-Building target: RepRapUltimakerFirmware.elf
 ../src/configuration.h:86:1: warning: this is the location of the previous definition
-Invoking: AVR C++ Linker
 ../src/firmware.cpp: In function ‘void setup()’:
-avr-g++ -Wl,-Map,RepRapUltimakerFirmware.map,--cref -mmcu=atmega1280 -o"RepRapUltimakerFirmware.elf"  ./src/cartesian_dda.o ./src/fancy.o ./src/firmware.o ./src/hostcom.o ./src/main.o ./src/process_g_code.o ./src/toolhead_stepper.o ./src/vectors.o  ./lib/arduino/HardwareSerial.o ./lib/arduino/Print.o ./lib/arduino/Tone.o ./lib/arduino/WInterrupts.o ./lib/arduino/WMath.o ./lib/arduino/WString.o ./lib/arduino/pins_arduino.o ./lib/arduino/wiring.o ./lib/arduino/wiring_analog.o ./lib/arduino/wiring_digital.o ./lib/arduino/wiring_pulse.o ./lib/arduino/wiring_shift.o  ./lib/WiringSerial/wiring_serial.o   
 ../src/firmware.cpp:152: warning: deprecated conversion from string constant to ‘char*’
 ../src/firmware.cpp: In function ‘void handle_heater_out(char*, temperature_sensor*, int)’:
 ../src/firmware.cpp:275: warning: deprecated conversion from string constant to ‘char*’
@@ -79,8 +63,6 @@ avr-g++ -Wl,-Map,RepRapUltimakerFirmware.map,--cref -mmcu=atmega1280 -o"RepRapUl
 ../src/firmware.cpp:324: warning: deprecated conversion from string constant to ‘char*’
 ../src/firmware.cpp: In function ‘void loop()’:
 ../src/firmware.cpp:334: warning: deprecated conversion from string constant to ‘char*’
-../src/process_g_code.h: At global scope:
-../src/process_g_code.h:34: warning: inline function ‘void init_process_string()’ used but never defined
 In file included from ../src/firmware.h:17,
                  from ../src/hostcom.cpp:13:
 ../src/configuration.h:89:1: warning: "INVERT_X_DIR" redefined
@@ -111,11 +93,6 @@ In file included from ../src/firmware.h:17,
 ../src/process_g_code.cpp:295: warning: format ‘%d’ expects type ‘int’, but argument 3 has type ‘long int’
 ../src/process_g_code.cpp:319: warning: format ‘%d’ expects type ‘int’, but argument 3 has type ‘long int’
 ../src/process_g_code.cpp:319: warning: format ‘%d’ expects type ‘int’, but argument 4 has type ‘long int’
-../src/firmware.h: At global scope:
-../src/firmware.h:56: warning: inline function ‘void qMove(const FloatPoint&)’ used but never defined
-../src/firmware.h:57: warning: inline function ‘bool qEmpty()’ used but never defined
-../src/firmware.h:59: warning: inline function ‘void setUnits(bool)’ used but never defined
-../src/firmware.h:60: warning: inline function ‘void setPosition(const FloatPoint&)’ used but never defined
 ../src/process_g_code.cpp: In function ‘int parse_string(GcodeParser*, char*, int)’:
 ../src/process_g_code.cpp:264: warning: control reaches end of non-void function
 In file included from ../src/firmware.h:17,
@@ -124,119 +101,7 @@ In file included from ../src/firmware.h:17,
 ../src/configuration.h:77:1: warning: this is the location of the previous definition
 ../src/configuration.h:91:1: warning: "INVERT_Z_DIR" redefined
 ../src/configuration.h:86:1: warning: this is the location of the previous definition
-../src/toolhead_stepper.cpp:8: warning: ‘extruder_in_use’ initialised and declared ‘extern’
-../src/toolhead_stepper.cpp: In function ‘int init_toolhead_stepper(toolhead_stepper_data*)’:
-../src/toolhead_stepper.cpp:25: warning: control reaches end of non-void function
-../src/toolhead_stepper.cpp: In function ‘int pump_toolhead_extruder(void*, long unsigned int)’:
-../src/toolhead_stepper.cpp:15: warning: control reaches end of non-void function
-In file included from ../src/firmware.h:17,
-                 from ../src/vectors.cpp:10:
-../src/configuration.h:89:1: warning: "INVERT_X_DIR" redefined
-../src/configuration.h:77:1: warning: this is the location of the previous definition
-../src/configuration.h:91:1: warning: "INVERT_Z_DIR" redefined
-../src/configuration.h:86:1: warning: this is the location of the previous definition
-/usr/lib/gcc/avr/4.3.5/../../../avr/lib/avr51/libc.a(cmpsf2.o):../../../libm/fplib/cmpsf2.S:58: multiple definition of `__ltsf2'
-/usr/lib/gcc/avr/4.3.5/avr51/libgcc.a(_lt_sf.o):(.text+0x0): first defined here
-./src/cartesian_dda.o: In function `cartesian_dda::disable_steppers()':
-../src/cartesian_dda.cpp:425: undefined reference to `set_toolhead_stepper_enable(toolhead*, int)'
-./src/cartesian_dda.o: In function `cartesian_dda::enable_steppers()':
-../src/cartesian_dda.cpp:405: undefined reference to `set_toolhead_stepper_enable(toolhead*, int)'
-./src/cartesian_dda.o: In function `cartesian_dda::set_target(FloatPoint const&)':
-../src/cartesian_dda.cpp:121: undefined reference to `operator-(FloatPoint const&, FloatPoint const&)'
-../src/cartesian_dda.cpp:121: undefined reference to `fabsv(FloatPoint const&)'
-../src/cartesian_dda.cpp:126: undefined reference to `operator*(FloatPoint const&, FloatPoint const&)'
-../src/cartesian_dda.cpp:138: undefined reference to `to_steps(FloatPoint const&, FloatPoint const&)'
-../src/cartesian_dda.cpp:139: undefined reference to `to_steps(FloatPoint const&, FloatPoint const&)'
-../src/cartesian_dda.cpp:140: undefined reference to `operator-(LongPoint const&, LongPoint const&)'
-../src/cartesian_dda.cpp:140: undefined reference to `absv(LongPoint const&)'
-./src/firmware.o: In function `handle_heater_out(char*, temperature_sensor*, int)':
-../src/firmware.cpp:275: undefined reference to `hostcom::put(char*)'
-../src/firmware.cpp:297: undefined reference to `hostcom::string()'
-../src/firmware.cpp:297: undefined reference to `heater_error_message'
-../src/firmware.cpp:298: undefined reference to `hostcom::setFatal()'
-../src/firmware.cpp:299: undefined reference to `hostcom::sendMessage(bool)'
-./src/firmware.o: In function `manage()':
-../src/firmware.cpp:310: undefined reference to `hostcom::put(char*)'
-../src/firmware.cpp:312: undefined reference to `pump_all_toolheads'
-../src/firmware.cpp:313: undefined reference to `hostcom::put(char*)'
-../src/firmware.cpp:316: undefined reference to `hostcom::put(char*)'
-../src/firmware.cpp:317: undefined reference to `heater_pump'
-../src/firmware.cpp:318: undefined reference to `hostcom::put(char*)'
-../src/firmware.cpp:324: undefined reference to `hostcom::put(char*)'
-./src/firmware.o: In function `loop':
-../src/firmware.cpp:334: undefined reference to `hostcom::put(char*)'
-./src/firmware.o: In function `shutdown()':
-../src/firmware.cpp:253: undefined reference to `shutdown_all_toolheads'
-../src/firmware.cpp:257: undefined reference to `heater_shutdown'
-./src/firmware.o: In function `qEmpty()':
-../src/firmware.cpp:375: undefined reference to `cartesian_dda::active()'
-./src/firmware.o: In function `__vector_17':
-../src/firmware.cpp:143: undefined reference to `cartesian_dda::active()'
-./src/firmware.o: In function `init_extruder(int, int, int, int, int, int, int)':
-../src/firmware.cpp:54: undefined reference to `init_toolhead'
-../src/firmware.cpp:67: undefined reference to `heater_init'
-../src/firmware.cpp:77: undefined reference to `init_heater_pins'
-../src/firmware.cpp:77: undefined reference to `init_heater_pins'
-../src/firmware.cpp:78: undefined reference to `shutdown_heater_pins'
-../src/firmware.cpp:78: undefined reference to `shutdown_heater_pins'
-../src/firmware.cpp:79: undefined reference to `write_heater_pins'
-../src/firmware.cpp:79: undefined reference to `write_heater_pins'
-../src/firmware.cpp:88: undefined reference to `init_temperature_sensor'
-../src/firmware.cpp:89: undefined reference to `init_analog_thermal_sensor_pin'
-../src/firmware.cpp:91: undefined reference to `read_analog_thermal_sensor'
-../src/firmware.cpp:91: undefined reference to `read_analog_thermal_sensor'
-./src/firmware.o: In function `setup':
-../src/firmware.cpp:152: undefined reference to `hostcom::put(char*)'
-../src/firmware.cpp:168: undefined reference to `add_toolhead'
-../src/firmware.cpp:192: undefined reference to `hostcom::start()'
-../src/firmware.cpp:196: undefined reference to `heater_init'
-../src/firmware.cpp:209: undefined reference to `init_temperature_sensor'
-../src/firmware.cpp:211: undefined reference to `read_analog_thermal_sensor'
-../src/firmware.cpp:211: undefined reference to `read_analog_thermal_sensor'
-../src/firmware.cpp:219: undefined reference to `init_analog_thermal_sensor_pin'
-../src/firmware.cpp:220: undefined reference to `read_analog_thermal_sensor'
-../src/firmware.cpp:220: undefined reference to `read_analog_thermal_sensor'
-./src/process_g_code.o: In function `specialMoveZ(float const&, float const&)':
-../src/process_g_code.cpp:114: undefined reference to `qMove(FloatPoint const&)'
-./src/process_g_code.o: In function `specialMoveY(float const&, float const&)':
-../src/process_g_code.cpp:107: undefined reference to `qMove(FloatPoint const&)'
-./src/process_g_code.o: In function `specialMoveX(float const&, float const&)':
-../src/process_g_code.cpp:100: undefined reference to `qMove(FloatPoint const&)'
-./src/process_g_code.o: In function `process_string(char*, int)':
-../src/process_g_code.cpp:293: undefined reference to `hostcom::string()'
-../src/process_g_code.cpp:295: undefined reference to `hostcom::string()'
-../src/process_g_code.cpp:297: undefined reference to `hostcom::setResend(long)'
-../src/process_g_code.cpp:311: undefined reference to `hostcom::string()'
-../src/process_g_code.cpp:312: undefined reference to `hostcom::setResend(long)'
-../src/process_g_code.cpp:319: undefined reference to `hostcom::string()'
-../src/process_g_code.cpp:320: undefined reference to `hostcom::setResend(long)'
-../src/process_g_code.cpp:381: undefined reference to `qMove(FloatPoint const&)'
-../src/process_g_code.cpp:388: undefined reference to `qMove(FloatPoint const&)'
-../src/process_g_code.cpp:434: undefined reference to `setUnits(bool)'
-../src/process_g_code.cpp:439: undefined reference to `setUnits(bool)'
-../src/process_g_code.cpp:454: undefined reference to `setPosition(FloatPoint const&)'
-../src/process_g_code.cpp:459: undefined reference to `hostcom::string()'
-../src/process_g_code.cpp:460: undefined reference to `hostcom::setResend(long)'
-../src/process_g_code.cpp:522: undefined reference to `hostcom::setETemp(int)'
-../src/process_g_code.cpp:523: undefined reference to `hostcom::setBTemp(int)'
-../src/process_g_code.cpp:530: undefined reference to `set_solenoid'
-../src/process_g_code.cpp:537: undefined reference to `set_solenoid'
-../src/process_g_code.cpp:569: undefined reference to `hostcom::setCoords(FloatPoint const&)'
-../src/process_g_code.cpp:584: undefined reference to `set_solenoid'
-../src/process_g_code.cpp:590: undefined reference to `set_solenoid'
-../src/process_g_code.cpp:607: undefined reference to `hostcom::string()'
-../src/process_g_code.cpp:608: undefined reference to `hostcom::setResend(long)'
-../src/process_g_code.cpp:620: undefined reference to `get_toolhead'
-./src/process_g_code.o: In function `get_and_do_command()':
-../src/process_g_code.cpp:177: undefined reference to `hostcom::get()'
-../src/process_g_code.cpp:176: undefined reference to `hostcom::gotData()'
-../src/process_g_code.cpp:215: undefined reference to `hostcom::string()'
-../src/process_g_code.cpp:225: undefined reference to `hostcom::sendMessage(bool)'
-./lib/arduino/HardwareSerial.o: In function `store_char(unsigned char, ring_buffer*)':
-../lib/arduino/HardwareSerial.cpp:68: undefined reference to `__cxa_pure_virtual'
-../lib/arduino/HardwareSerial.cpp:68: undefined reference to `__cxa_pure_virtual'
-../lib/arduino/HardwareSerial.cpp:68: undefined reference to `__cxa_pure_virtual'
-../lib/arduino/HardwareSerial.cpp:68: undefined reference to `__cxa_pure_virtual'
-../lib/arduino/HardwareSerial.cpp:68: undefined reference to `__cxa_pure_virtual'
-./lib/arduino/Print.o:../lib/arduino/WString.h:70: more undefined references to `__cxa_pure_virtual' follow
-make: *** [RepRapUltimakerFirmware.elf] Error 1
+../src/toolhead_stepper.cpp:15: error: ‘int init_toolhead_stepper’ redeclared as different kind of symbol
+../src/toolhead_stepper.h:19: error: previous declaration of ‘int init_toolhead_stepper(toolhead_stepper_data*)’
+../src/toolhead_stepper.cpp:15: error: ‘motor_data’ was not declared in this scope
+make: *** [src/toolhead_stepper.o] Error 1
